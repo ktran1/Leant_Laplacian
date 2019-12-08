@@ -4,8 +4,8 @@ This is an implementation of the paper Learning Laplacian Matrix in Smooth Graph
 
 https://arxiv.org/pdf/1406.7842.pdf by [X.Dong et al]
 
-min tr(Y.*L*Y.T) + beta ||L||^2
-         L
+min tr(Y.*L*Y.T) + beta ||L||^2 \\
+         L \\
         L = L.T, tr(L) = number of signals (vertices)., sum(L[i,:]) = 0., L[i,j] <= 0 (i><j) 
 
 
